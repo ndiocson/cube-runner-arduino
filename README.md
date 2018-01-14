@@ -20,18 +20,18 @@ game. This adds a competitive edge to the game, allowing the player to face off 
 # Game Instructions
 
 To play the game is very simple. Using the Arduino's joystick, the player is able to move left or right
-relative the the direction they push in. Should the player find the need to pause while in the middle of
+relative the direction they push in. Should the player find the need to pause while in the middle of
 a game, the player may click the joystick button to freeze time. To get back to the game, simply click the
 button a second time. If a high score is achieved, once the player dies they will be prompted by the serial
 monitor to enter in their name. This will be stored onto their SD card along with their score. Note that only
 letters should be used when storing names, and capital letters are ALREADY implemented so there is no need to
 use the shift or caps-lock keys. Should an SD card not be available to the player, the game will still be able
-to be played just without the functionality of the leader board ad the "TO BEAT" score tracker.
+to be played just without the functionality of the leader board and the "TO BEAT" score tracker.
 
 
 # Wring Instruction
 
-The wiring of this game is exactly the same as other projects and assignments using the joystick and screen,
+The wiring of this game is the same as other projects and assignments using the joystick and screen,
 (namely Assignment 2 Parts 1 & 2), however a guide will still be provided:
 
 Adafruit ILI9341
@@ -55,7 +55,7 @@ SainSmart Joystick
 - +5V <--> +5V
 - VRx	<--> A1 (analog pin)
 - VRy <--> A0 (analog pin)
-- SW <--> 2 (digital pin)
+- SW  <--> 2 (digital pin)
 
 
 # Miscellaneous
