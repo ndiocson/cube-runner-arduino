@@ -7,9 +7,9 @@
 
 # Project Description
 
-Our final project is based around the on-line game known as "Cube Field" or "Cube Runner". This is a
+Our final project is based around the online game known as "Cube Field" or "Cube Runner". This is a
 3D arcade-like game in which the player controls a triangular cursor accelerating through a field of
-cube-like objects. The objective of the game is very simple; to avoid colliding with an oncoming cube
+cube-like objects. The objective of the game is very simple: avoid colliding with the oncoming cube
 for as long as possible. While the player is alive, the difficulty will increase with the game spawning
 more blocks to clog the player's available pathways. As the game progresses, the player will rack up
 points based on the number of cubes they have passed. In addition to this, the player is also able to
