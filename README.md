@@ -1,12 +1,11 @@
-# cube-runner-arduino
 
-CMPUT 274 - FINAL PROJECT: CUBE RUNNER
+# CMPUT 274 - FINAL PROJECT: CUBE RUNNER
 
 NICK DIOCSON (1492649)
 COLE MILBURN (1515586)
 
 
-Project Description
+# Project Description
 
 Our final project is based around the on-line game known as "Cube Field" or "Cube Runner". This is a
 3D arcade-like game in which the player controls a triangular cursor accelerating through a field of
@@ -18,7 +17,7 @@ view their score relative to the next highest score(s) on the current leader boa
 game. This adds a competitive edge to the game, allowing the player to face off against their friends.
 
 
-Game Instructions
+# Game Instructions
 
 To play the game is very simple. Using the Arduino's joystick, the player is able to move left or right
 relative the the direction they push in. Should the player find the need to pause while in the middle of
@@ -30,7 +29,7 @@ use the shift or caps-lock keys. Should an SD card not be available to the playe
 to be played just without the functionality of the leader board ad the "TO BEAT" score tracker.
 
 
-Wring Instruction
+# Wring Instruction
 
 The wiring of this game is exactly the same as other projects and assignments using the joystick and screen,
 (namely Assignment 2 Parts 1 & 2), however a guide will still be provided:
@@ -59,7 +58,7 @@ VRy <--> A0 (analog pin)
 SW <--> 2 (digital pin)
 
 
-Miscellaneous
+# Miscellaneous
 
 This project does not require any additional parts other than the Adafruit screen and the SainSmart Joystick.
 
