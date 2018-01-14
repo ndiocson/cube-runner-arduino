@@ -35,27 +35,27 @@ The wiring of this game is exactly the same as other projects and assignments us
 (namely Assignment 2 Parts 1 & 2), however a guide will still be provided:
 
 Adafruit ILI9341
-GND  <--> GND
-Vin  <--> +5V
-CLK  <--> 52
-MISO <--> 50
-MOSI <--> 51
-CS 	 <--> 10
-D/C  <--> 9
-Y+ 	 <--> A2 (analog pin)
-X+   <--> 4  (digital pin)
-Y-   <--> 5  (digital pin)
-X-   <--> A3 (analog pin)
-CCS  <--> 6
+- GND  <--> GND
+- Vin  <--> +5V
+- CLK  <--> 52
+- MISO <--> 50
+- MOSI <--> 51
+- CS 	 <--> 10
+- D/C  <--> 9
+- Y+ 	 <--> A2 (analog pin)
+- X+   <--> 4  (digital pin)
+- Y-   <--> 5  (digital pin)
+- X-   <--> A3 (analog pin)
+- CCS  <--> 6
 
 NOTE: The rest of the pins are NOT to be connected to the Arduino Board
 
 SainSmart Joystick
-GND <--> GND
-+5V <--> +5V
-VRx	<--> A1 (analog pin)
-VRy <--> A0 (analog pin)
-SW <--> 2 (digital pin)
+- GND <--> GND
+- +5V <--> +5V
+- VRx	<--> A1 (analog pin)
+- VRy <--> A0 (analog pin)
+- SW <--> 2 (digital pin)
 
 
 # Miscellaneous
