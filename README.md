@@ -1,62 +1,37 @@
 
 # CUBE RUNNER
 
-- NICK DIOCSON
-- COLE MILBURN
+### Developed By:
+Nick Diocson  
+Cole Milburn  
 
 ### Project Description
-
-Our final project is based around the online game known as "Cube Field" or "Cube Runner". This is a
-3D arcade-like game in which the player controls a triangular cursor accelerating through a field of
-cube-like objects. The objective of the game is very simple: avoid colliding with the oncoming cube
-for as long as possible. While the player is alive, the difficulty will increase with the game spawning
-more blocks to clog the player's available pathways. As the game progresses, the player will rack up
-points based on the number of cubes they have passed. In addition to this, the player is also able to
-view their score relative to the next highest score(s) on the current leader board while playing the
-game. This adds a competitive edge to the game, allowing the player to face off against their friends.
+Our final project is based around the online game known as "Cube Field" or "Cube Runner". This is a 3D arcade-like game in which the player controls a triangular cursor accelerating through a field of cube-like objects. The objective of the game is simple: avoid colliding with the oncoming cubes for as long as possible. While the player is alive, the difficulty will increase with the game spawning more blocks to reduce the player's available pathways. As the game progresses, the player will earn points based on the number of cubes they have passed. Additionally, the player will be able to view their score relative to the next highest score on the current leader board while playing the game.
 
 ### Game Instructions
+Using the Arduino's joystick, the player is able to move left or right. The player may click the joystick button to pause/unpause the game. If a high score is achieved, the player will be prompted by the serial monitor to enter in their name once their game is finished. Their name and score will be stored onto the SD card. 
 
-To play the game is very simple. Using the Arduino's joystick, the player is able to move left or right
-relative the direction they push in. Should the player find the need to pause while in the middle of
-a game, the player may click the joystick button to freeze time. To get back to the game, simply click the
-button a second time. If a high score is achieved, once the player dies they will be prompted by the serial
-monitor to enter in their name. This will be stored onto their SD card along with their score. Note that only
-letters should be used when storing names, and capital letters are ALREADY implemented so there is no need to
-use the shift or caps-lock keys. Should an SD card not be available to the player, the game will still be able
-to be played just without the functionality of the leader board and the "TO BEAT" score tracker.
+Note that only letters should be used when storing names, and capital letters are already implemented. Should an SD card not be available to the player, the game will still be able to be played just without the functionality of the leader board and in-game highscore tracker.
 
 ### Wiring Instruction
 
-The wiring of this game is the same as other projects and assignments using the joystick and screen,
-(namely Assignment 2 Parts 1 & 2), however a guide will still be provided:
+#### Adafruit ILI9341
+GND  <--> GND  
+Vin  <--> +5V  
+CLK  <--> 52  
+MISO <--> 50  
+MOSI <--> 51  
+CS 	 <--> 10  
+D/C  <--> 9  
+Y+ 	 <--> A2  
+X+   <--> 4  
+Y-   <--> 5  
+X-   <--> A3  
+CCS  <--> 6  
 
-Adafruit ILI9341
-- GND  <--> GND
-- Vin  <--> +5V
-- CLK  <--> 52
-- MISO <--> 50
-- MOSI <--> 51
-- CS 	 <--> 10
-- D/C  <--> 9
-- Y+ 	 <--> A2 (analog pin)
-- X+   <--> 4  (digital pin)
-- Y-   <--> 5  (digital pin)
-- X-   <--> A3 (analog pin)
-- CCS  <--> 6
-
-NOTE: The rest of the pins are NOT to be connected to the Arduino Board
-
-SainSmart Joystick
-- GND <--> GND
-- +5V <--> +5V
-- VRx	<--> A1 (analog pin)
-- VRy <--> A0 (analog pin)
-- SW  <--> 2 (digital pin)
-
-### Miscellaneous
-
-This project does not require any additional parts other than the Adafruit screen and the SainSmart Joystick.
-
-Some functions, such as swap(), pivot() and qsort(), were used from previous assignment(s) to be implemented
-within this current code.
+#### SainSmart Joystick
+GND <--> GND  
++5V <--> +5V  
+VRx	<--> A1  
+VRy <--> A0  
+SW  <--> 2  
