@@ -4,8 +4,7 @@
 - NICK DIOCSON
 - COLE MILBURN
 
-
-# Project Description
+### Project Description
 
 Our final project is based around the online game known as "Cube Field" or "Cube Runner". This is a
 3D arcade-like game in which the player controls a triangular cursor accelerating through a field of
@@ -16,8 +15,7 @@ points based on the number of cubes they have passed. In addition to this, the p
 view their score relative to the next highest score(s) on the current leader board while playing the
 game. This adds a competitive edge to the game, allowing the player to face off against their friends.
 
-
-# Game Instructions
+### Game Instructions
 
 To play the game is very simple. Using the Arduino's joystick, the player is able to move left or right
 relative the direction they push in. Should the player find the need to pause while in the middle of
@@ -28,8 +26,7 @@ letters should be used when storing names, and capital letters are ALREADY imple
 use the shift or caps-lock keys. Should an SD card not be available to the player, the game will still be able
 to be played just without the functionality of the leader board and the "TO BEAT" score tracker.
 
-
-# Wring Instruction
+### Wiring Instruction
 
 The wiring of this game is the same as other projects and assignments using the joystick and screen,
 (namely Assignment 2 Parts 1 & 2), however a guide will still be provided:
@@ -57,8 +54,7 @@ SainSmart Joystick
 - VRy <--> A0 (analog pin)
 - SW  <--> 2 (digital pin)
 
-
-# Miscellaneous
+### Miscellaneous
 
 This project does not require any additional parts other than the Adafruit screen and the SainSmart Joystick.
 
